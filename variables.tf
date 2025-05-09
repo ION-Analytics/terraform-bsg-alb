@@ -14,8 +14,8 @@ variable "subnet_ids" {
   type        = list(string)
 }
 
-variable "certificate_domain_name" {
-  description = "Domain name as used in AWS ACM Certificate - this will be used by Terraform Data Source to resolve the actual certificate ARN"
+variable "certificate_arn" {
+  description = "Certificate ARN"
   type        = string
 }
 
